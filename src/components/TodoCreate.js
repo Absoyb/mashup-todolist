@@ -100,6 +100,7 @@ function TodoCreate() {
     nextId.current += 1;
   };
 
+  // 기능 구현
   return (
     <>
       {open && (
@@ -107,7 +108,7 @@ function TodoCreate() {
           <InsertForm onSubmit={onSubmit}>
             <Input
               autoFocus
-              placeholder="할 일을 입력 후, Enter 를 누르세요"
+              placeholder="할 일을 입력 후, Enter 를 누르세요 "
               onChange={onChange}
               value={value}
             />
